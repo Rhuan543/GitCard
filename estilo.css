@@ -40,14 +40,12 @@ main {
 .cartão-imagem {
   width: 100%;
 }
-
 .cartao-interno {
   position: relative;
 
 transition:0.8s;
 transform:preserve-3d
 }
-
 .cartao-mentira,
 .cartao-verso {
   position: absolute;
@@ -58,9 +56,10 @@ backface-visibility: hidden;
 .cartao-verso{
 transition: rotateY(180deg)
 }
-.cartao:hover .cartao-interno{transform: rotateY(180deg);
+.cartao:hover .cartao-interno{
+  transform: rotateY(180deg);
 }
 section{
-display: flex;
+display: flex;  
 gap: 16px;
 }
